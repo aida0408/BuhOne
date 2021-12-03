@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+header{
+    background-color: #000;
+}
+.logo-img{
+    width: 300px;
+}
+.menu{
+    list-style: none;
+}
+.menu-item{
+    color: white;
+    text-transform: uppercase;
+    margin-right: 15px;
+
+
+
+
+}
