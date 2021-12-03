@@ -5,21 +5,49 @@
 a{
     text-decoration: none;
 }
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
 header{
     background-color: #000;
+    padding: 30px;
 }
 .logo-img{
     width: 300px;
 }
 .menu{
     list-style: none;
+    padding-left: 0;
+    margin-bottom: 10px;
 }
-.menu-item{
+.menu-item {
     color: white;
     text-transform: uppercase;
-    margin-right: 15px;
+}
+.auth-btn{
+    color: #045fa3;
+    border: 1px solid #045fa3;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 7px 15px;
+}
+.auth-btn:hover{
+    background-color: #2a2626;
+}
+.about{
+    background: #0008 url("./images/peter.png") no-repeat center/cover;
+    padding: 70px 40px 60px;
 
-
-
+}
+.about-title{
+    color: #fff;
+    font-size: 42px;
+    margin-bottom: 40px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 11px;
+    background-color: #045fa3;
+    color: white;
 
 }
